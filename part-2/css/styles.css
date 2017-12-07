@@ -23,15 +23,25 @@ figure {
   margin: 0;
 }
 
-.film {
-  width: 50%;
+article.film {
+  overflow: hidden;
+  width: 76%;
   margin: 40px auto;
   position: relative;
-  float: left;
   border: 2px solid black;
 }
 
 .film-poster {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin: 20px;
+  position: relative;
+}
+
+.film-details {
+  display: inline-block;
+  width: 60%;
   float: left;
 }
 
