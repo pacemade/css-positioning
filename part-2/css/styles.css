@@ -26,4 +26,28 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  position: relative;
+  float: left;
+  border: 2px solid black;
+}
+
+.film-poster {
+  float: left;
+}
+
+.fa-clock-o {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+i {
+  color: red;
+}
+
+.action-like {
+  display: inline-block;
+  position: absolute;
+  bottom: 8px;
+  right: 0px;
 }
